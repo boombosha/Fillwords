@@ -1,0 +1,31 @@
+.page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-square {
+    margin-top: 20vh;
+}
+
+.square {
+    width: 50vh;
+    height: 50vh;
+    border: 1px solid gray;
+    table-layout: fixed;
+}
+
+.main-square td {
+	border: 1px solid #000000;
+    overflow: hidden;
+    min-width: 200px; /* Минимально допустимый размер */
+    max-height: 20px;
+}
+
+td {
+    height: 50px;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+    font-size: 2em;
+}
